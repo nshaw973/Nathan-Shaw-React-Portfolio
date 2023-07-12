@@ -1,0 +1,66 @@
+@import '../node_modules/tailwindcss/base.css';
+@import '../node_modules/tailwindcss/components.css';
+@import '../node_modules/tailwindcss/utilities.css';
+@import '../node_modules/daisyui/dist/full.css';
+
+:root {
+  /* Shades of Green */
+  --dark-green: #006400;
+  --medium-green: #008000;
+  --light-green: #00ff00;
+  /* Shades of Blue */
+  --dark-blue: #000080;
+  --medium-blue: #0000ff;
+  --light-blue: #add8e6;
+  /* Neutral Colors */
+  --dark-gray: #333333;
+  --light-gray: #cccccc;
+  --off-white: #f5f5f5;
+  /* Accent Colors */
+  --orange: #ffa600;
+  --yellow: #ffff00;
+  /* Background image */
+  --bg-image: url('./components/images/bg.JPG');
+}
+
+*{
+  font-family: sans-serif
+}
+
+.theme-color {
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.pdf-container {
+  background-color: black;
+  width: 100%;
+  height: 85vh;
+}
+
+.custom-container-main {
+  background-color: rgba(255, 255, 255, 0.651);
+  margin: 0 5% 0 5%;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.navbar {
+  height: 5vh;
+  background-color: var(--off-white);
+}
+
+footer {
+  height: 5vh;
+  background-color: var(--off-white);
+}
+
+.custom-text-styling {
+  text-shadow: black 2px 2px 2px;
+}
+
